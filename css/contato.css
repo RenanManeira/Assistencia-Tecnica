@@ -1,3 +1,45 @@
+.barra_menu {
+    width: calc(100% - 130px);
+    padding: 0 65px;
+    height: 120px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .menu_items {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+  }
+
+  .barra_menu h1 {
+    font-size: 40px;
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo{
+    height: 80px;
+    width: 140px;
+    margin-top: 5px;
+  }
 form {
     width: calc(100% - 250px);
     padding: 0 125px;
