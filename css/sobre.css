@@ -1,5 +1,5 @@
 .barra_menu {
-    width: calc(100% - 130px);
+    width: 100%;
     padding: 0 65px;
     height: 120px;
     color: white;
@@ -33,6 +33,21 @@
   header a {
     text-decoration: none;
     color: white;
+  }
+
+  .container_titles h2 {
+    color: white;
+    font-size: 26px;
+    padding: 0 50px;
+  }
+
+  .container_titles {
+    background-color:#332f2f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90px;
   }
 
   .logo{
