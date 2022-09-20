@@ -1,5 +1,5 @@
 .barra_menu {
-    width: calc(100% - 130px);
+    width: 100%;
     padding: 0 65px;
     height: 120px;
     color: white;
@@ -40,8 +40,8 @@
     width: 140px;
     margin-top: 5px;
   }
-form {
-    width: calc(100% - 250px);
+  .forms {
+    width: 100%;
     padding: 0 125px;
     height: 500px;
     padding: 0 0;
@@ -52,18 +52,21 @@ form {
   }
 
   .tit_contato {
-    width: calc(100% - 250px);
-    padding: 50px 125px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    font-size: 35px;
+    justify-content: center;
+    font-size: 30px;
     font-weight: bold;
   }
 
   label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-left: 15px;
     margin-top: 35px;
     margin-bottom: 5px;
