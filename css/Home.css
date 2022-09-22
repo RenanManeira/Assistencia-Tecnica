@@ -178,10 +178,10 @@
 }
 /* ********* mobile *********/
 
-@media screen and (max-width:480px){ 
+@media screen and (min-width:320px) and (max-width:480px){ 
   .barra_menu {
     width: 100%;
-    padding: 0;
+    padding: 0 5%;
     height: 120px;
     color: white;
     background-color: black;
@@ -191,6 +191,11 @@
     align-items: center;
     border-bottom: 2px solid gray;
   }
+
+  .container-fluid {
+    display: flex;
+    margin-right: auto;
+  }
   
   .navbar {
     display: flex;
@@ -198,18 +203,9 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    font-size: 8px;
+    font-size: 20px;
   }
   
-  .menu_items {
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-  }
-  
-  .barra_menu h1 {
-    font-size: 40px;
-  }
   
   header a {
     text-decoration: none;
@@ -217,11 +213,11 @@
   }
   
   .logo{
-    height: 40px;
-    width: 70px;
-    margin-top: 1px;
-    padding: 0;
+    height: 80px;
+    width: 140px;
+    margin-top: 5px;
   }
+  
   
   /* ***********BANNER PRINCIPAL*********** */
   .banner {
@@ -237,6 +233,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #332f2f;
+  color: white;
   }
 
   table tr td{
@@ -338,10 +335,10 @@
 
 /* *********tablet*********/
 
-@media screen and (max-width:768px){ 
+@media screen and (min-width:480px) and (max-width:768px) { 
   .barra_menu {
     width: 100%;
-    padding: 0;
+    padding: 0 5%;
     height: 120px;
     color: white;
     background-color: black;
@@ -351,6 +348,11 @@
     align-items: center;
     border-bottom: 2px solid gray;
   }
+
+  .container-fluid {
+    display: flex;
+    margin-right: auto;
+  }
   
   .navbar {
     display: flex;
@@ -358,18 +360,9 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    font-size: 8px;
+    font-size: 20px;
   }
   
-  .menu_items {
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-  }
-  
-  .barra_menu h1 {
-    font-size: 40px;
-  }
   
   header a {
     text-decoration: none;
@@ -377,11 +370,11 @@
   }
   
   .logo{
-    height: 40px;
-    width: 70px;
-    margin-top: 1px;
-    padding: 0;
+    height: 80px;
+    width: 140px;
+    margin-top: 5px;
   }
+  
   
   /* ***********BANNER PRINCIPAL*********** */
   .banner {
