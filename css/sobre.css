@@ -1,7 +1,8 @@
+@media screen and (min-width:769px) {
 .barra_menu {
     width: 100%;
     padding: 0 65px;
-    height: 120px;
+    height: 100%;
     color: white;
     background-color: black;
     display: flex;
@@ -18,16 +19,6 @@
     align-items: center;
     color: white;
     font-size: 20px;
-  }
-
-  .menu_items {
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-  }
-
-  .barra_menu h1 {
-    font-size: 40px;
   }
 
   header a {
@@ -89,3 +80,4 @@
     justify-content: space-around;
     align-items: center;
   }
+}
