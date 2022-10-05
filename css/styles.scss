@@ -553,7 +553,7 @@
     column-gap: 4%;
   }
   
-  container-card {
+  .container-card {
     &--card {
     background-color: lightgray;
     font-family: 'Times New Roman', Times, serif;
@@ -562,7 +562,7 @@
   }
   
   
-  container-card {
+  .container-card {
     &--card{ 
       &--h5 {
     font-size: 20px;
@@ -570,10 +570,18 @@
     }
   }
   
-  container-card {
+  .container-card {
     &--card{
       &--card-text {
     font-size: 17px;
+      }
+    }
+  }
+
+  .container-card{
+    &--card{
+      &--card-img{
+        padding: 50%;
       }
     }
   }
