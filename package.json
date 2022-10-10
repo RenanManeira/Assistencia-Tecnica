@@ -244,13 +244,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedroedreira/projeto_CoderHouse.git"
+    "url": "git+https://github.com/RenanManeira/Assistencia-Tecnica"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pedroedreira/projeto_CoderHouse/issues"
+    "url": "https://github.com/RenanManeira/Assistencia-Tecnica/issues"
   },
-  "homepage": "https://github.com/pedroedreira/projeto_CoderHouse#readme",
+  "homepage": "https://github.com/RenanManeira/Assistencia-Tecnica#readme",
   "description": ""
 }
