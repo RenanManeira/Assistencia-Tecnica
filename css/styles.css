@@ -1,5 +1,5 @@
+@charset "UTF-8";
 @import url(styles.css);
-
 /********************** FOOTER  ***********************/
 footer {
   background-color: black;
@@ -93,68 +93,54 @@ footer {
   .container-card .card .card-text {
     font-size: 17px; }
   .card-img {
-    padding: 5%;}
+    padding: 5%; }
   .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; } 
-  
-  .container-serviços{
+    gap: 10px; }
+  .container-serviços {
     display: flex;
     flex-direction: column;
-    background-color: #332f2f;
-  }
-  
-  .container-serviços h2{
+    background-color: #332f2f; }
+  .container-serviços h2 {
     display: flex;
     justify-content: center;
     color: white;
     font-size: 25px;
-    text-decoration: underline;
-  }
-  
-  .container-serviços p{
+    text-decoration: underline; }
+  .container-serviços p {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 17px;
-  }
-  
-  .container-serviços ul{
+    font-size: 17px; }
+  .container-serviços ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 17px;
-  }
-  
-  .container-serviços .serviços{
+    font-size: 17px; }
+  .container-serviços .serviços {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 5px;
-    border-bottom: 2px solid gray;
-  }
-  .container-serviços .serviços .img--serviços img{
+    border-bottom: 2px solid gray; }
+  .container-serviços .serviços .img--serviços img {
     height: 100%;
-    width: 100%;
-  }
-  .container-serviços .serviços .descrição{
+    width: 100%; }
+  .container-serviços .serviços .descrição {
     display: flex;
     flex-direction: column;
-    width: 100%;
-  }
-  .container-serviços .serviços .img--serviços{
+    width: 100%; }
+  .container-serviços .serviços .img--serviços {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 100%;
-  } 
-
+    width: 100%; }
   /**********CONTATO*******/
   .forms {
     width: 100%;
@@ -205,49 +191,38 @@ footer {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
-  }
+    flex-direction: row; }
   .container_forms {
     width: 100%;
     height: 100%;
     margin: 50px 25px 50px 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;} 
+    align-items: center; }
   /********************** SOBRE ***********************/
   .sobre {
     background-color: #332f2f;
     color: white;
-    border-bottom: 50px solid #332f2f ;
-  }
-
-  .sobre .descrição-sobre{
-    padding: 40px;
-  }
-
+    border-bottom: 50px solid #332f2f; }
+  .sobre .descrição-sobre {
+    padding: 40px; }
   .sobre .img-sobre img {
     width: 100%;
-    height: 100%;
-  }
-
+    height: 100%; }
   .sobre .descrição-sobre h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     font-size: 35px;
-    text-decoration: underline;
-  }
-
+    text-decoration: underline; }
   .sobre .descrição-sobre p {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    font-size: 17px;
-  }
-
-/* *********AGENDAMENTO*******/
+    font-size: 17px; }
+  /* *********AGENDAMENTO*******/
   .container_agendamento img {
     width: 80%;
     height: 80%; }
@@ -256,11 +231,10 @@ footer {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    background-color: #D9D9D9; 
+    background-color: #D9D9D9;
     justify-content: center;
     align-items: center;
-    padding: 50px 50px;
-  }
+    padding: 50px 50px; }
   .img_calendario {
     width: 50%;
     height: 100%;
@@ -274,15 +248,12 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 17px;
-  }
-  .horarios2 h2{
+    font-size: 17px; }
+  .horarios2 h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-  }
-}
+    font-size: 25px; } }
 
 /* ********* mobile *********/
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -335,83 +306,67 @@ footer {
     border-top: 2px solid gray; }
   .container-card {
     display: grid;
-    grid-template-areas: "card1" 
- "card2"
- "card3" 
- "card4";
+    grid-template-areas: "card1"  "card2" "card3"  "card4";
     column-gap: 80px;
     row-gap: 25px; }
-    .container-card .card {
-      background-color: lightgray;
-      font-family: 'Times New Roman', Times, serif;
-      border: 2px solid gray; }
-    .container-card .card h5 {
-      font-size: 20px; }
-    .container-card .card .card-text {
-      font-size: 17px; }
-    .card-img {
-      padding: 5%;}
+  .container-card .card {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid gray; }
+  .container-card .card h5 {
+    font-size: 20px; }
+  .container-card .card .card-text {
+    font-size: 17px; }
+  .card-img {
+    padding: 5%; }
   .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px; }
-
-    /**********SERVIÇOS*******/
-  .container-serviços{
-      display: flex;
-      flex-direction: column;
-      background-color: #332f2f;
-  }
-  
-  .container-serviços h2{
-      display: flex;
-      justify-content: center;
-      color: white;
-      font-size: 18px;
-      text-decoration: underline;
-  }
-  
-  .container-serviços p{
-      display: flex;
-      justify-content: center;
-      color: white;
-      font-size: 12px;
-  }
-  
-  .container-serviços ul{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 12px;
-  }
-  
-  .container-serviços .serviços{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      padding: 5px;
-      border-bottom: 2px solid gray;
-  }
-  .container-serviços .serviços .img--serviços img{
-      height: 100%;
-      width: 100%;
-  }
-  .container-serviços .serviços .descrição{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-  }
-  .container-serviços .serviços .img--serviços{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      width: 100%;
-  }
+  /**********SERVIÇOS*******/
+  .container-serviços {
+    display: flex;
+    flex-direction: column;
+    background-color: #332f2f; }
+  .container-serviços h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline; }
+  .container-serviços p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px; }
+  .container-serviços ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px; }
+  .container-serviços .serviços {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px solid gray; }
+  .container-serviços .serviços .img--serviços img {
+    height: 100%;
+    width: 100%; }
+  .container-serviços .serviços .descrição {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .container-serviços .serviços .img--serviços {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%; }
   /*******CONTATO*******/
   .forms {
     width: 100%;
@@ -475,35 +430,25 @@ footer {
   .sobre {
     background-color: #332f2f;
     color: white;
-    border-bottom: 50px solid #332f2f ;
-  }
-
-  .sobre .descrição-sobre{
-    padding: 40px;
-  }
-
+    border-bottom: 50px solid #332f2f; }
+  .sobre .descrição-sobre {
+    padding: 40px; }
   .sobre .img-sobre img {
     width: 100%;
-    height: 100%;
-  }
-
+    height: 100%; }
   .sobre .descrição-sobre h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     font-size: 28px;
-    text-decoration: underline;
-  }
-
+    text-decoration: underline; }
   .sobre .descrição-sobre p {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    font-size: 12px;
-  }
-
+    font-size: 12px; }
   /* *********AGENDAMENTO*******/
   .container_agendamento img {
     width: 80%;
@@ -513,11 +458,10 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: #D9D9D9; 
+    background-color: #D9D9D9;
     justify-content: center;
     align-items: center;
-    padding: 20px 20px;
-  }
+    padding: 20px 20px; }
   .img_calendario {
     width: 100%;
     height: 100%;
@@ -532,18 +476,15 @@ footer {
     align-items: center;
     flex-direction: column;
     font-size: 12px;
-    margin-top: 20PX;
-  }
-  .horarios2 h2{
+    margin-top: 20PX; }
+  .horarios2 h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 17px;
     width: 50%;
-    height: 100%;
-  }
-}
+    height: 100%; } }
 
 /* *********tablet*********/
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -596,84 +537,68 @@ footer {
     border-top: 2px solid gray; }
   .container-card {
     display: grid;
-    grid-template-areas: 
-    "card1 card2"
-    "card3 card4";
+    grid-template-areas: "card1 card2" "card3 card4";
     column-gap: 2%;
     row-gap: 2%; }
   .container-card .card {
-      background-color: lightgray;
-      font-family: 'Times New Roman', Times, serif;
-      border: 2px solid gray; }
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid gray; }
   .container-card .card h5 {
-      font-size: 20px; }
+    font-size: 20px; }
   .container-card .card .card-text {
-      font-size: 17px; }
+    font-size: 17px; }
   .card-img {
-      padding: 5%;}
+    padding: 5%; }
   .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px; }
-
-    /**********SERVIÇOS*******/
-  .container-serviços{
-      display: flex;
-      flex-direction: column;
-      background-color: #332f2f;
-  }
-  
-  .container-serviços h2{
-      display: flex;
-      justify-content: center;
-      color: white;
-      font-size: 18px;
-      text-decoration: underline;
-  }
-  
-  .container-serviços p{
-      display: flex;
-      justify-content: center;
-      color: white;
-      font-size: 12px;
-  }
-  
-  .container-serviços ul{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 12px;
-  }
-  
-  .container-serviços .serviços{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      padding: 5px;
-      border-bottom: 2px solid gray;
-  }
-  .container-serviços .serviços .img--serviços img{
-      height: 100%;
-      width: 100%;
-  }
-  .container-serviços .serviços .descrição{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-  }
-  .container-serviços .serviços .img--serviços{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      width: 100%;
-  }
-
-/**********CONTATO*******/
+  /**********SERVIÇOS*******/
+  .container-serviços {
+    display: flex;
+    flex-direction: column;
+    background-color: #332f2f; }
+  .container-serviços h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline; }
+  .container-serviços p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px; }
+  .container-serviços ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px; }
+  .container-serviços .serviços {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px solid gray; }
+  .container-serviços .serviços .img--serviços img {
+    height: 100%;
+    width: 100%; }
+  .container-serviços .serviços .descrição {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .container-serviços .serviços .img--serviços {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%; }
+  /**********CONTATO*******/
   .forms {
     width: 100%;
     height: 100%;
@@ -731,40 +656,29 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; }
-
   /********************** SOBRE ***********************/
   .sobre {
     background-color: #332f2f;
     color: white;
-    border-bottom: 50px solid #332f2f ;
-  }
-
-  .sobre .descrição-sobre{
-    padding: 40px;
-  }
-
+    border-bottom: 50px solid #332f2f; }
+  .sobre .descrição-sobre {
+    padding: 40px; }
   .sobre .img-sobre img {
     width: 100%;
-    height: 100%;
-  }
-
+    height: 100%; }
   .sobre .descrição-sobre h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     font-size: 35px;
-    text-decoration: underline;
-  }
-
+    text-decoration: underline; }
   .sobre .descrição-sobre p {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    font-size: 17px;
-  }
-
+    font-size: 17px; }
   /* *********AGENDAMENTO*******/
   .container_agendamento img {
     width: 80%;
@@ -774,11 +688,10 @@ footer {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    background-color: #D9D9D9; 
+    background-color: #D9D9D9;
     justify-content: center;
     align-items: center;
-    padding: 50px 50px;
-  }
+    padding: 50px 50px; }
   .img_calendario {
     width: 100%;
     height: 100%;
@@ -792,15 +705,12 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 15px;
-  }
-  .horarios2 h2{
+    font-size: 15px; }
+  .horarios2 h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     width: 50%;
-    height: 100%;
-  }
-}
+    height: 100%; } }
